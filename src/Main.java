@@ -1,3 +1,5 @@
+import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class Main
@@ -149,7 +151,7 @@ public class Main
     }
     public static boolean  primeCheck(int arr)
     {
-        if(arr== 0 || arr == 1 ||arr == 2)
+        if(arr== 0 || arr == 1)
             return false;
         else
             for(int i = 2; i <arr; i++)
